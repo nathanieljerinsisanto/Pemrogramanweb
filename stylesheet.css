@@ -1,4 +1,4 @@
-/*Reset CSS*/
+/* Reset CSS*/
 *{
     margin: 0;
     padding: 0;
@@ -12,9 +12,13 @@ li{
     list-style: none;
 }
 
-/*Header*/
+li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Header */
 header{
-    background-color: #0e78be ;
+    background-color: #0e78be;
     color: #ffffff;
     height: 90px;
 }
@@ -30,31 +34,27 @@ header{
     padding: 35px 20px;
 }
 
-/*Main/Content*/
-.main{
+/* Main / Content */
+main{
     padding: 100px 80px;
 }
 
 .main-container h1{
     font-size: 95px;
 }
-
 .main-container span{
     color: #d40909;
 }
-
-.main-cotainer h2{
+.main-container h2{
     font-size: 60px;
 }
-
-/*Bagian Contents*/
+/* cbagian contents */
 .contents{
     height: 500px;
     margin-top: 100px;
 }
-
-.contents h3{
-    border-bottom: 2px solid #cecece; 
+.section-title{
+    border-bottom: 2px solid #cecece;
     font-size: 28px;
     padding-bottom: 15px;
     margin-bottom: 50px;
@@ -69,19 +69,23 @@ header{
     width: 220px;
     height: 220px;
     padding: 10px;
-    background-color: #d40909;
+    background-color: #ff0000;
 }
 
-.contents-img.htmlcss{
-    background-color: rgb(224 219 219);
+.contents-img.htmlscc{
+    background-color: white;
 }
 
-.contents-img.PHP{
-    background-color: rgb(2 126 95);
+.contents-img.php{
+    background-color: green;
 }
 
-.contents-img.Java{
+.contents-img.java{
     background-color: orange;
+}
+
+.contents-img.python{
+    background-color:red ;
 }
 
 .contents-img img{
@@ -94,9 +98,10 @@ header{
     text-align: center;
 }
 
-/*Bagian Contact*/
+/* bagian contact*/
 .contact{
     padding-top: 100px;
+
 }
 
 input, textarea{
@@ -108,17 +113,17 @@ input, textarea{
     border: 1px solid #cecece;
 }
 
-.contact_submit{
-    background-color: #059605;
+.contact-submit{
+    background-color: #059650;
     color: #ffffff;
     cursor: pointer;
 }
 
-.txt_red{
-    color: #d40909;
+.txt-red{
+    color: red;
 }
 
-/*Footer*/
+/* FOOOTER */
 footer{
     background-color: #2f5167;
     color: #ffffff;
@@ -126,17 +131,16 @@ footer{
     height: 30px;
 }
 
-.footer_logo{
+.footer-logo{
     float: left;
     font-size: 30px;
-
 }
 
-.footer_nav{
+.footer-nav{
     float: right;
 }
 
-.footer_nav li{
+.footer-nav li{
     padding: 10px 20px;
     float: left;
 }
