@@ -93,3 +93,50 @@ header{
     margin-top: 30px;
     text-align: center;
 }
+
+/*Bagian Contact*/
+.contact{
+    padding-top: 100px;
+}
+
+input, textarea{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #cecece;
+}
+
+.contact_submit{
+    background-color: #059605;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.txt_red{
+    color: #d40909;
+}
+
+/*Footer*/
+footer{
+    background-color: #2f5167;
+    color: #ffffff;
+    padding: 20px 40px;
+    height: 30px;
+}
+
+.footer_logo{
+    float: left;
+    font-size: 30px;
+
+}
+
+.footer_nav{
+    float: right;
+}
+
+.footer_nav li{
+    padding: 10px 20px;
+    float: left;
+}
